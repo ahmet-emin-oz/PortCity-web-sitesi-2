@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortCity - Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>PortCity</h1>
+        <!-- Theme toggle moved here for Flexbox 'space-between' -->
+        <button id="theme-toggle" class="btn" aria-label="Temayı Değiştir">🎨 &nbsp;</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="about.html">Hakkımızda</a></li>
+            <li><a href="services.html">Hizmetler</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>PortCity'nin Büyüsünü Keşfedin</h2>
+            <div class="hero-image-container">
+                <img src="images/home_hero.png" alt="Port City Manzarası" class="interactive-img">
+            </div>
+            <p>Eşsiz güzellikler, lüks ve konforun buluşma noktası.</p>
+        </section>
+
+        <section class="interaction-zone">
+            <h3>Beğeni Köşesi</h3>
+            <button id="like-btn" class="btn">👍 Beğen</button>
+            <p style="margin-top:10px;">Şu ana kadar <strong id="like-count">0</strong> kişi beğendi.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
